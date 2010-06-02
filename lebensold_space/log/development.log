@@ -1,0 +1,177 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 11:56:17) [GET]
+
+ActionController::RoutingError (No route matches "/site/help" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 15:40:16) [GET]
+
+ActionController::RoutingError (No route matches "/site" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 15:40:26) [GET]
+
+ActionController::RoutingError (No route matches "/site/about" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 15:47:55) [GET]
+
+ActionController::RoutingError (No route matches "/lebensoldSpaces" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 15:48:23) [GET]
+
+ActionController::RoutingError (No route matches "/site/about" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 15:48:29) [GET]
+
+ActionController::RoutingError (No route matches "/site/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 15:48:41) [GET]
+
+ActionController::RoutingError (No route matches "/lebensoldSpaces" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-06-02 15:49:02) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 91ms (View: 4, DB: 0) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:16:15) [GET]
+
+ActionController::RoutingError (No route matches "/site/about" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:16:23) [GET]
+
+ActionController::RoutingError (No route matches "/site" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-06-02 16:17:01) [GET]
+Rendering template within layouts/site
+Rendering site/index
+Completed in 672ms (View: 671, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:17:23) [GET]
+
+ActionController::RoutingError (No route matches "/siite" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-06-02 16:17:35) [GET]
+Rendering template within layouts/site
+Rendering site/about
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-06-02 16:20:08) [GET]
+Rendering template within layouts/site
+Rendering site/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:28:03) [GET]
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-06-02 16:28:30) [GET]
+Rendering template within layouts/site
+Rendering site/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:28:36) [GET]
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-06-02 16:29:09) [GET]
+Rendering template within layouts/site
+Rendering site/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-06-02 16:29:12) [GET]
+Rendering template within layouts/site
+Rendering site/about
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2010-06-02 16:29:15) [GET]
+Rendering template within layouts/site
+Rendering site/help
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-06-02 16:29:20) [GET]
+Rendering template within layouts/site
+Rendering site/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/site/index]
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.8ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100602204334)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255)) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100602204334')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
