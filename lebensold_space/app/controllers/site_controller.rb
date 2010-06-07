@@ -1,6 +1,6 @@
 class SiteController < ApplicationController
   def index
-    @title = 'Welcome to Lebensold Space!'
+    @title = "Welcome to Lebensold Space!"
   end
 
   def about
