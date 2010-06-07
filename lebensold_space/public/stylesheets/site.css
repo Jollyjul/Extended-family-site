@@ -96,13 +96,20 @@ label {
   margin-left: 15em; 
 }
 
-/* Debug Style */ 
-.debug_dump { 
+
+/* Debug Style */
+#debug {
+  margin-top: 1em;
+  margin-left: auto;
+}
+#debug a, #debug a.visited {
+  text-decoration: none;
+  color: maroon;
+}
+fieldset.debug_info {
   text-align: left; 
-  border-top: 1px dashed black; 
-  background: #ccc; 
-  margin: 0; 
-  padding: 0.5em; 
+  margin: 1em; 
+  background: #eee;
 }
 
 /* Error Reporting Styles */ 
