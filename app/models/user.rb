@@ -32,9 +32,10 @@ class User < ActiveRecord::Base
     session[:user_id] = id
   end
   
-  # Log a user out
-  def self.logout(session)
+  # Log a user out.
+  def self.logout!(session, cookies)
     session[:user_id] = nil
+    cookies.delete(:authorization_token)
   end
   
   # Clear the password (typically to suppress its display in a view).
