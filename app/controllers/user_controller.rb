@@ -10,7 +10,7 @@
     before_filter :protect, :except => [ :login, :register]
 
     def index 
-      @title = "RailsSpace User Hub"
+#      @title = "RailsSpace User Hub"
       # This will be a protected page for viewing user information.
     end
 
