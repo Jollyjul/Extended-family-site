@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   # filter_parameter_logging :password
  
   # Pick a unique cookie name to distinguish our session data from others'
-    session :session_key => '_lebensold_space_session_id'
+#    session :session_key => '_lebensold_space_session_id'
 
   # Check for a valid authorization cookie, possibly logging the user in.
   def check_authorization
